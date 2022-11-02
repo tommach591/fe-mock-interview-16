@@ -1,0 +1,18 @@
+.Completed {
+  position: absolute;
+  width: 118rem;
+  height: 2.5rem;
+  border: 1px solid black;
+  left: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.Completed > h1 {
+  font-family: cursive;
+  font-size: large;
+}

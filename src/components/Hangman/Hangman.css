@@ -1,0 +1,113 @@
+.Hangman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  height: 20rem;
+}
+
+.Rope {
+  position: relative;
+  border: 1px solid black;
+
+  height: 2rem;
+
+  top: -88px;
+  left: 255px;
+}
+
+.Arm {
+  position: relative;
+  border: 1px solid black;
+
+  width: 10rem;
+
+  top: -104px;
+  left: 92px;
+}
+
+.Stand {
+  position: relative;
+  border: 1px solid black;
+
+  height: 12rem;
+
+  top: -8px;
+  left: -70px;
+}
+
+.Feet {
+  position: relative;
+  border: 1px solid black;
+
+  width: 10rem;
+
+  top: 90px;
+  left: -150px;
+}
+
+.Head {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+
+  top: 105px;
+  left: 1031px;
+}
+
+.Body {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 2.25rem;
+
+  top: 146px;
+  left: 1051px;
+}
+
+.RightArm {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 1.5rem;
+  transform: rotate(-70deg);
+
+  top: 140px;
+  left: 1039px;
+}
+
+.LeftArm {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 1.5rem;
+  transform: rotate(70deg);
+
+  top: 140px;
+  left: 1064px;
+}
+
+.RightLeg {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 1.5rem;
+  transform: rotate(50deg);
+
+  top: 179px;
+  left: 1040px;
+}
+
+.LeftLeg {
+  position: absolute;
+  border: 1px solid black;
+
+  height: 1.5rem;
+  transform: rotate(-50deg);
+
+  top: 179px;
+  left: 1062px;
+}
